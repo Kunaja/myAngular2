@@ -1,0 +1,13 @@
+body {    
+    margin: 100px auto;
+    width: 800px;
+    text-align : center ;
+    background: linear-gradient(132deg, #FF83F5, #93F4FF);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite;
+}
+@keyframes BackgroundGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
